@@ -5,7 +5,10 @@ import Items from './Items.js'
 export default class Body extends Component {
   render() {
     return (
-      <div>Body</div>
+      <div>
+        <Banner />
+        <Items />
+      </div>
     )
   }
 }
